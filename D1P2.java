@@ -4,6 +4,7 @@ import java.io.*;
 public class D1P2 {
     public static void main(String[] args) throws IOException{
         BufferedReader r = new BufferedReader(new FileReader("test.in"));
+        PrintWriter pw = new PrintWriter(System.out);
         long ans = 0;
         String s = r.readLine();
         while(s != null){
@@ -91,10 +92,11 @@ public class D1P2 {
                     }
                 }
             }
-            // System.out.println(left * 10 + right);
             ans += left * 10 + right;
             s = r.readLine();
         }
-        System.out.println(ans);
+        pw.println(ans);
+        pw.close();
+        r.close();
     }
 }

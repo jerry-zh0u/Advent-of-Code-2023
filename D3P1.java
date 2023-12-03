@@ -1,3 +1,5 @@
+//checking to see corners and maintaining a visited array to make sure nothing is traversed twice
+
 import java.util.*;
 import java.io.*;
 
@@ -49,5 +51,6 @@ public class D3P1 {
         }
         pw.println(ans);
         pw.close();
+        r.close();
     }
 }

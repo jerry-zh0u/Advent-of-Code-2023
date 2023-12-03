@@ -1,3 +1,5 @@
+//same logic but check to see if something has 2 borders in a gear
+
 import java.util.*;
 import java.io.*;
 
@@ -53,5 +55,6 @@ public class D3P2 {
         }
         pw.println(ans);
         pw.close();
+        r.close();
     }
 }

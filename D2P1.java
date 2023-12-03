@@ -53,5 +53,6 @@ public class D2P1 {
         }
         pw.println(ans);
         pw.close();
+        r.close();
     }
 }
